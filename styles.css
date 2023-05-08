@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+.th {
+	height:100px;
+	width:100px;
+	background-color:green;
+	font-size:20px;
+}
+.first {
+	height:100px;
+	width:100px;
+	background-color:red;
+	font-size:20px;
+}
+.sec {
+	height:100px;
+	width:100px;
+	background-color:blue;
+	font-size:20px;
+}
+.container {
+	display:flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
